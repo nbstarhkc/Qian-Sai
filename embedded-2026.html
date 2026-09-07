@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="依据七家企业的2026官方指南，整理FPGA创新设计赛道24项选题、要求、平台与评测。">
+  <title>2026 FPGA 赛题图谱</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="topics.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#topics">FPGA <span>2026</span></a>
+    <nav aria-label="主导航">
+      <button class="tab active" data-view="topics" aria-current="page">赛题详解</button>
+      <button class="tab" data-view="matrix">方向矩阵</button>
+      <button class="tab" data-view="compare">选题对比 <span id="compare-count">0</span></button>
+      <button class="tab" data-view="sources">官方资料</button>
+    </nav>
+    <a class="official-link" href="http://www.fpgachina.cn/?page=download" target="_blank" rel="noopener">竞赛官网 ↗</a>
+  </header>
+  <div class="page-head">
+    <div class="heading-line"><div><p class="eyebrow">全国大学生嵌入式芯片与系统设计竞赛 · FPGA 创新设计赛道</p><h1>2026 FPGA 赛题图谱</h1></div><span class="verified"><span></span>官方指南已核对 · 09.07</span></div>
+    <p class="scope">范围依据你提供的 FPGA 选题合集。共 24 项一级选题，含开放方向；AMD 内部分榜、分组不重复计数。此处不涵盖其他竞赛赛道。</p>
+    <div class="overview">
+      <div class="stats"><div><strong>07</strong><span>企业指南</span></div><div><strong>24</strong><span>一级选题</span></div><div><strong>139</strong><span>PDF 原文页</span></div></div>
+      <div class="timeline" aria-label="第一轮通知赛程">
+        <div><span>报名截止</span><strong>09.22 <small>24:00</small></strong></div><div><span>作品提交</span><strong>11.04 <small>18:00</small></strong></div><div><span>南京决赛</span><strong>11.20–22</strong></div>
+        <a href="sources/notice.pdf#page=5" target="_blank" rel="noopener">第一轮通知 · 后续安排以官网为准 ↗</a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <section id="view-topics" class="view active" aria-label="赛题详解">
+      <div class="filters">
+        <div id="vendor-filters" class="vendor-filters" aria-label="企业筛选"></div>
+        <div class="search-row"><label class="search-label"><span>检索</span><input id="search" type="search" placeholder="赛题、芯片、算法或接口" autocomplete="off"></label><label><span class="sr-only">技术方向</span><select id="category"><option value="all">全部技术方向</option></select></label><label><span class="sr-only">选题类型</span><select id="topic-type"><option value="all">全部选题类型</option><option>指定任务</option><option>自主选题</option></select></label><button id="reset" class="text-button">重置</button></div>
+      </div>
+      <div class="workspace">
+        <aside class="topic-sidebar"><div class="list-heading"><strong>选题目录</strong><span id="results-count" aria-live="polite"></span></div><div id="topic-list"></div></aside>
+        <article id="topic-detail" class="topic-detail" aria-live="polite"></article>
+      </div>
+    </section>
+    <section id="view-matrix" class="view" aria-label="方向矩阵">
+      <div class="section-heading"><div><h2>技术方向矩阵</h2><p>同一选题可包含多个方向。矩阵为内容归类，不是官方难度或获奖概率评级。</p></div></div>
+      <div id="distribution" class="distribution"></div>
+      <div class="table-scroll"><table class="matrix"><thead id="matrix-head"></thead><tbody id="matrix-body"></tbody></table></div>
+    </section>
+    <section id="view-compare" class="view" aria-label="选题对比">
+      <div class="section-heading"><div><h2>选题对比</h2><p>按实际平台、基础任务和交付约束比较。</p></div><button id="clear-compare" class="secondary">清空对比</button></div>
+      <div id="compare-selectors" class="compare-selectors"></div><div id="comparison"></div>
+    </section>
+    <section id="view-sources" class="view" aria-label="官方资料">
+      <div class="section-heading"><div><h2>官方资料与口径</h2><p>核对日期 2026-09-07。7 份 PDF、139 页文字层已逐页提取，图片中的表格与主要标注另附转录。</p></div><a class="secondary" href="fpga-2026-guide.md" download>选题解读 MD</a></div>
+      <div class="fulltext-downloads"><a class="primary" href="fulltext.html">阅读全文与图片对照</a><a class="secondary" href="fpga-2026-fulltext.txt" download>合并全文 TXT</a><a class="secondary" href="fpga-2026-fulltext.zip" download>完整资料 ZIP</a><a href="fulltext-audit.md">核对记录</a></div>
+      <div class="source-intro"><div><h3>来源链路</h3><a href="https://mp.weixin.qq.com/s/QrSgf1xQWhxGrn9ORjiMZw" target="_blank" rel="noopener">9 月 3 日公众号选题指南合集 ↗</a><p>合集链接到七家企业文章，文章的“阅读原文”指向竞赛官网下载中心。本页以官网下载 PDF 为详细要求依据。</p></div><div><h3>统一参赛要求</h3><p>第一轮通知：每队不超过 3 人，指导教师不超过 2 人，每位同学限一队。决赛安排 FPGA 基础编程能力考核，通过后获得决赛评奖资格。</p><a href="sources/notice.pdf#page=3" target="_blank" rel="noopener">第一轮通知 · PDF 第 3–5 页 ↗</a></div></div>
+      <div class="source-notes"><h3>阅读时需要保留的区别</h3><ul><li>“指定任务 / 自主选题”和技术标签为本页归类，正式分组与报名选项以官网为准。复旦微题名为内容概括。</li><li>任务与指标区为官方要求的归纳；“备赛建议”为整理者的工程建议，不是额外强制项。选题解读 MD 是摘要，全文 TXT 保留各页全部文字层内容。</li><li>全文保留原始错字和页眉；表格列顺序可能受提取影响。41 个图片区域均附原图和未校准 OCR，其中 17 个图的主要标注或表格另有对图转录。</li><li>安路 PDF 封面及选题正文为 2026，但部分平台页页眉残留 2025；易灵思第 4 页配图 Ti60F255 与正文 Ti60F225 不一致。</li><li>总体通知的本科/研究生组与 AMD 自主选题的初级/高级组口径不同，报名时同时核对企业细则和报名系统。</li><li>AMD ROCm 版本、中科亿海微工具衔接及部分数值表述存在需进一步确认之处，已在具体题目保留原文限制。</li></ul></div>
+      <div id="source-grid" class="source-grid"></div>
+    </section>
+  </main>
+  <footer><span>2026 FPGA 选题资料整理 · 非官方选题辅助资料</span><span>正式资格、评分及后续变更以组委会 / 企业通知为准</span></footer>
+  <div id="toast" role="status"></div>
+  <noscript><p class="noscript">此页面需要启用 JavaScript。可阅读 <a href="fulltext.html">逐页全文</a> 或 <a href="fpga-2026-guide.md">选题解读</a>。</p></noscript>
+</body>
+</html>

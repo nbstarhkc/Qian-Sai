@@ -1,0 +1,58 @@
+[
+  {
+    "vendor": "AMD",
+    "file": "amd.pdf",
+    "pages": 28,
+    "version": "2026-08-31",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "紫光同创",
+    "file": "pango.pdf",
+    "pages": 17,
+    "version": "2026-08-29",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "安路科技",
+    "file": "anlogic.pdf",
+    "pages": 35,
+    "version": "2026-09-02",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "高云半导体",
+    "file": "gowin.pdf",
+    "pages": 22,
+    "version": "2026-08-24",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "易灵思",
+    "file": "efinix.pdf",
+    "pages": 21,
+    "version": "2026-09-02",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "复旦微",
+    "file": "fudan.pdf",
+    "pages": 8,
+    "version": "2026-08-22",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  },
+  {
+    "vendor": "中科亿海微",
+    "file": "ehi.pdf",
+    "pages": 8,
+    "version": "2026-08-22",
+    "officialIndex": "http://www.fpgachina.cn/?page=download",
+    "retrieved": "2026-09-07"
+  }
+]

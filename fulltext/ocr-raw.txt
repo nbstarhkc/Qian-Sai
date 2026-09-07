@@ -1,0 +1,2688 @@
+﻿图片 OCR 原始输出：未经逐字校准，可能包含乱码、漏字和二维码噪声。
+此文件仅供核查，不能直接当作赛题原文。对应图片在 images/，可视对照在 ../fulltext.html。
+
+--- AMD | PDF 第 5 页 | amd-05-image-1.png ---
+™ fare
+
+a
+
+lal
+
+lp
+
+sig
+
+An
+
+rn
+
+te
+
+—
+
+\
+
+ter
+
+o
+
+ox
+
+eer
+
+=
+
+me
+
+ro
+
+Pl
+
+(a Hl
+
+oi
+
+ae
+
+oe
+
+7 全
+
+|
+
+ae
+
+ao
+
+ap
+
+an
+
+ap
+
+| »
+
+
+--- AMD | PDF 第 6 页 | amd-06-image-1.png ---
+
+
+--- 紫光同创 | PDF 第 4 页 | pango-04-image-1.png ---
+232
+
+FPGA ADj电源选择
+
+FMC
+
+°
+
+8
+
+MIPI = TTL CAN*2 s Rs
+
+FPGAJTAG —=®
+
+aa
+
+=!
+
+eet
+
+iar @ ot:
+
+ue
+
+@
+
+IC
+
+Pi
+
+ANT
+
+SFP
+
+时
+
+SEE:
+
+Saks
+
+Ve
+
+SFP
+
+对一树莓派-IO
+
+ie
+
+hee
+
+UBOOT
+
+CaS AR
+
+ARM Key:
+
+ta
+
+FPGA Key
+
+Nes
+
+‘2
+
+FPGA Key
+
+TB a)
+
+Fe
+
+a
+
+| 6 —ARM JTAG
+
+roo gS
+
+fe |  poo
+
+"
+
+im
+
+Fund
+
+Be ta *
+
+&
+
+2)
+
+试口
+
+na BS
+
+ne
+
+n fTT oe 要
+
+ey IN in
+
+TF卡
+
+HDMI OUT
+
+1000M网 口
+
+USB2.0*2
+
+
+--- 紫光同创 | PDF 第 5 页 | pango-05-image-1.png ---
+盘古100K Mini
+
+JTAG
+
+40Pin 扩展接口
+
+让全
+
+串口
+
+Branco
+
+以太网
+
+HDMI输入
+
+a |
+
+= HOMIE
+
+电源口
+
+40Pin 扩展接口”核心板
+
+40Pin 扩展接口
+
+
+--- 紫光同创 | PDF 第 5 页 | pango-05-image-2.png ---
+盘古100pro+
+
+以太网接口
+
+HDMI输入
+
+HDMI输出
+
+se!
+
+业
+
+=:
+
+19
+
+By
+
+iy
+
+FMCH RO
+
+a
+
+mere
+
+oe
+
+用 :>
+
+1
+
+‘ef
+
+LEDXT &
+
+5
+
+if
+
+出 。主控芯片Logos2
+
+PG2L100H-6IFBG676
+
+口
+
+i +——_ 0
+
+DDR3(512MB)
+
+=
+
+SMA接口
+
+SD card -——
+
+RIES: SABES
+
+bee:
+
+ret
+
+STAG
+
+一一一一一12V 电源接口
+
+光纤接口SFP1
+
+光纤接口SFP0
+
+
+--- 紫光同创 | PDF 第 6 页 | pango-06-image-1.png ---
+盘古50K
+
+以太网接口2
+
+HDMI输入
+
+以太网接口
+
+HDMI输出
+
+vey Oe
+
+wl
+
+扩展IO (摄像头借接口)
+
+aig a
+
+PCIE
+
+主控芯片Logos2
+
+PGLSOH-6IFBG484
+
+按键
+
+- BE:
+
+DDR3
+
+LE0灯e一一一一|
+
+三 一*pPMOD接口
+
+a as | >
+
+USB-UART
+
+oe
+
+Jaco
+
+Wi
+
+光纤接口SFP1
+
+光纤接口SFPO
+
+电源接口
+
+
+--- 紫光同创 | PDF 第 7 页 | pango-07-image-1.png ---
+7
+
+~ 接口功能一览 一
+
+丰富接口配置 满足多样化开发需求
+
+用户LED灯
+
+(Tee
+
+R
+
+RK
+
+状态指示
+
+[存储扩展
+
+J
+
+[
+
+功能村
+
+DC插座 |
+
+电源输入
+
+rduino
+
+随机
+
+ivy
+
+me,
+
+bs
+
+电源开关 |
+
+[
+
+整板电源控制
+
+ceases
+
+om
+
+STAG
+
+下载与调试
+
+ee
+
+©
+
+2]
+
+串口通信与调试
+
+树莓派接口
+
+GPIO扩展
+
+一
+
+加
+
+101001000以大|
+
+FF TEN
+
+站
+
+高速网络通信 |
+
+n®
+
+—=
+
+rt,
+
+pMODO
+
+PMOD1
+
+HDMI输出
+
+HDMI输入
+
+USB接口
+
+音频接口
+
+外设模块扩展 上 外设模块扩展
+
+视频输出
+
+高清视频输入 上外设连接与调试 | BAS Aw
+
+
+--- 紫光同创 | PDF 第 8 页 | pango-08-image-1.png ---
+处理器核心
+
+双核 Cortcx-A53
+
+处理器扩展
+
+NEON、
+
+FPU、 Crypto
+
+最大频率
+
+900MHz
+
+Li 缓存
+
+32KB 命令、 32KB 数据 (每个核)
+
+L2 缓存
+
+512KB
+
+片上 RAM
+
+256KB
+
+支持的外部存储器
+
+DDR4、
+
+LPDDR4、
+
+DDR3、 LPDDR3
+
+PU
+
+支持的外部蔚态存储器
+
+XxSPI(1x/2x/4x/8x).
+
+NAND、 NOR
+
+DMA 通道
+
+(4 个服务于 PAD
+
+不带 DMA 的外设
+
+2 个 UART、
+
+2 个 CAN-FD、2 个 PC、2个
+
+SPI、
+
+4组32位GPIO
+
+2 个 USB2.0 (OTG) 、 2 个千兆网 Ethemect、
+
+AH DMA 的外设
+
+2 个 SD/SDIO
+
+安全性
+
+支持 RSA. SHA Wi, AES.
+
+SM4 解密
+
+AXI 128bit ACP 接口、4 组访问 DDR 的高速
+
+PU 与 PA 互联接口
+
+AXI 接口 (2x128 SPS.
+
+2x64 SPS) 、4 组通用
+
+AXI 接口 (2x64 UPM、
+
+2x64 UPS) 、20 个中断
+
+LUT6
+
+53600
+
+逻辑单元
+
+85760
+
+CLM
+
+FF
+
+107200
+
+分布式 ram
+
+792.5
+
+(Kb)
+
+DRM (36Kbits/个)
+
+144
+
+PA
+
+APM(个)
+
+256
+
+GPLLs
+
+PLLs
+
+PPLLs
+
+MIPI
+
+2 4 MIPIRX CORE, 2 个 MIPITX CORE
+
+支持 AES、 SHA 用于启动、运辑配置、解密和验证
+
+安全性
+
+
+--- 紫光同创 | PDF 第 9 页 | pango-09-image-1.png ---
+Ne
+
+Wi
+
+fpeeda
+
+Dse4
+
+BooW-Vin,
+
+300".
+
+rites
+
+i
+
+=
+
+aa
+
+[hme
+
+es ae
+
+tsa
+
+Bey
+
+a
+
+外
+
+
+--- 紫光同创 | PDF 第 9 页 | pango-09-image-2.png ---
+FMC扩展子卡
+
+产品型号: MES-LPC-10子卡
+
+接口说明
+
+FC Lec IR
+
+A 40pin #78 10°28
+
+aR
+
+OR SMA BO" 路
+
+a
+
+NieRMeA nH SHA
+
+or)
+
+FMC扩展子卡采用 ASP-134604-01连接器
+
+符合FMC接口规范, 是标准的LPC接口
+
+扩展2路40pin扩展10, 共68个用户I0
+
+提供丰富的 10 连接外部设备
+
+40pin 扩展10与盘古及秦坦FPGA开发板40pin 10线序一致
+
+配套外设模块在可直接连接使用
+
+6个 SMA接口
+
+连接一路高速串行收发器
+
+一路高速串行收发器
+
+参考时钟输入, 支持高速数据传输
+
+
+--- 紫光同创 | PDF 第 9 页 | pango-09-image-3.png ---
+一
+
+ee
+
+ge
+
+5
+
+40pin简牛座
+
+8
+
+Ps
+
+Cee &
+
+5
+
+M2C_P
+
+M2C_N
+
+多
+
++B
+
+O38
+
+aC
+
+3g bg
+
+ec
+
+C2M_P
+
+Up.
+
+aC
+
++ i)
+
+— & &
+
+C2M_N
+
+>
+
+9
+
++ i)
+
+a
+
+»
+
+CLK_M2C_P
+
+a
+
+H
+
+— & &
+
+CLK_M2C_N
+
+CC
+
+HH
+
+i
+
+i
+
+人
+
+人
+
+本
+
+雪人和人四国
+
+rt
+
+40pin简牛座
+
+
+--- 紫光同创 | PDF 第 17 页 | pango-17-image-1.png ---
+ZOCEIORPCMT RS.
+
+WN)
+
+HS: 930128629
+
+ese Seee ee :
+
+eee
+
+2。  3
+
+©:
+
+©
+
+$ 3 e
+
+Se  a+
+
+e  23° e RID  ecoce
+
+@ eee 28
+
+eee
+
+eee
+
+ee @ @@6@
+
+ee © e0c0e
+
+eee
+
+ee
+
+@ee e08 8280880 6
+
+eee
+
+ece
+
+ee
+
+@ e6 ee
+
+eco
+
+bet |  3 3
+
+eee
+
+e See”  Seece
+
+ee
+
+
+--- 紫光同创 | PDF 第 17 页 | pango-17-image-2.png ---
+紫光同创FPGA开放交
+
+Ghee
+
+群号: 1070870039
+
+a)
+
+ee
+
+ee
+
+ee
+
+eee
+
+ee
+
+ee
+
+SS
+
+ee @ee @ @
+
+e@eee
+
+ee
+
+ee
+
+eee
+
+eee
+
+@ ee @ e008
+
+ee
+
+ee
+
+ee
+
+@0ee 08 @
+
+eee
+
+eco @
+
+ee
+
+eee eee
+
+eee
+
+ee
+
+ecco
+
+ee
+
+ee
+
+eee
+
+ecce $3 @eoee
+
+eee @
+
+
+--- 安路科技 | PDF 第 4 页 | anlogic-04-image-1.png ---
+市避
+
+二 电
+
+lek
+
+=
+
+引
+
+EEE
+
+口品局
+
+BG
+
+0 V1.0
+
+IC YONXIN
+
+2
+
+“加
+
+mm
+
+027
+
+下，
+
+it
+
+r
+
+DG 呵
+
+CR CRN
+
+
+--- 安路科技 | PDF 第 4 页 | anlogic-04-image-2.png ---
+Ca
+
+DAP
+
+下本 四 外 全
+
+xs aa pm 8
+
+co
+
+WSO,
+
+ernest
+
+iP ii
+
+is sa
+
+ms
+
+get
+
+Sean
+
+Wott
+
+oO
+
+La
+
+oss
+
+or:
+
+Se
+
+wo
+
+RN
+
+i)
+
+iy.
+
+a
+
+i
+
+ids
+
+|
+
+ji
+
+[nn]
+
+Pap:
+
+
+--- 安路科技 | PDF 第 6 页 | anlogic-06-image-1.png ---
+_——
+
+“7p
+
+a
+
+eae
+
+i
+
+RA
+
+iis
+
+ie
+
+1101. 21.
+
+oor
+
+jm
+
+Lt
+
+i
+
+a.
+
+ee
+
+a
+
+站ave，
+
+请
+
+BB By
+
+ee       1a
+
+Ete
+
+=B2.
+
+ed
+
+X1P:
+
+1.0
+
+LN
+
+-加
+
+已0
+
+一
+
+
+--- 安路科技 | PDF 第 6 页 | anlogic-06-image-2.png ---
+OLA
+
+d XH
+
+he he
+
+er
+
+Aeetes
+
+nie
+
+a
+
+Bet
+
+eae 8
+
+ni
+
+i)
+
+i=)
+
+最
+
+Lith)
+
+=
+
+|
+
+ooot
+
+aon
+
+图
+
+ales
+
+a
+
+OOOO:
+
+pA
+
+ssi
+
+Pr
+
+fox EM
+
+bis
+
+|
+
+ear
+
+rl
+
+Ea
+
+下
+
+wll
+
+ws Ss
+
+一-一，
+
+| we
+
+0
+
+
+--- 安路科技 | PDF 第 7 页 | anlogic-07-image-1.png ---
+a
+
+
+--- 安路科技 | PDF 第 7 页 | anlogic-07-image-2.png ---
+
+
+--- 安路科技 | PDF 第 9 页 | anlogic-09-image-1.png ---
+从
+
+q
+
+ee
+
+CK
+
+iS
+
+ee
+
+1
+
+=
+
+ee
+
+ey
+
+a =
+
+a
+
+oe
+
+|
+
+es
+
+Bt
+
+ony
+
+uf
+
+prea,
+
+=
+
+in
+
+™
+
+ue
+
+wr
+
+5
+
+a
+
+mt
+
+0
+
+FI
+
+Th:
+
+mal
+
+tr!
+
+f
+
+4+)
+
+ve
+
+nom a
+
+fa
+
+Pe
+
+cot 了
+
+js
+
+©:
+
+-
+
+enh
+
+my
+
+wy
+
+=
+
+rt
+
+ih
+
+nom
+
+oso
+
+east
+
+23
+
+i
+
+re
+
+a
+
+tat
+
+=
+
+Si
+
+ii
+
+santo st nF
+
+"i
+
+i
+
+2H
+
+son
+
+Is
+
+ey
+
+a 负
+
+on
+
+r
+
+=
+
+ts
+
+ag ae
+
+%
+
+ED
+
+Le
+
+
+--- 安路科技 | PDF 第 12 页 | anlogic-12-image-1.png ---
+USB2.0 HOST
+
+PL千兆以太网
+
+USB OTG
+
+PS千兆以太网
+
+HDMI 输出
+
+favs
+
+Cia
+
+Te’
+
+JTAG UART
+
+worstiee ye!
+
+lio
+
+rr
+
+4路PL 1路PSLED
+
+er
+
+eey
+
+ewery  onyory
+
+音频模块
+
+x
+
+|
+
+FEP 高速扩展接口
+
+4路按键
+
+电源开关
+
+米联客
+
+EE
+
+a
+
+=
+
+WIFI模块
+
+12V输入电源
+
+Cy
+
+4G模块
+
+1路CAN,1路485
+
+WIFI天线
+
+EPROM&RTC
+
+
+--- 高云半导体 | PDF 第 5 页 | gowin-05-image-1.png ---
+FO_20240326
+
+*
+
+*
+
+2
+
+Ri
+
+Ri08
+
+RUS —RH9 ©. (0. fo
+
+"¢
+
+R06
+
+Rut
+
+Riv
+
+‘
+
+4
+
+Yue
+
+(rl
+
+全Rlo4
+
+RIOTRILG
+
+RUZ piokt Ayhios
+
+ui3
+
+E12, 07 990Hx917
+
+OC
+
+@,
+
+3
+
+如
+
+«0
+
+M4
+
+{fe
+
+7
+
+M3
+
+PR
+
+ew
+
+Ses cee”
+
+BL)’
+
+Ex
+
+see!
+
+oor
+
+FS
+
+~
+
+70
+
+Ls)
+
+|     j
+
+x
+
+SooH=—,
+
+a
+
+Coco
+
+ur
+
+7
+
+bal
+
+BF
+
+{fe
+
+>
+
+02
+
+到
+
+a
+
+Vy
+
+ca3
+
+7
+
+en
+
+Tyg ea
+
+see)
+
+ofS)
+
+om
+
+&
+
+03
+
+Opes
+
+eu
+
+=
+
+C28
+
+539
+
+cl
+
+fear
+
+04
+
+Tc
+
+本
+
+o—
+
+el
+
+图
+
+本
+
+iq
+
+Fw
+
+图
+
+of
+
+cha cool
+
+aa
+
+=
+
+es.
+
+on
+
+图
+
+C26
+
+C76
+
+J4
+
+U4
+
+=F
+
+o
+
+on
+
+us
+
+£2,263
+
+F84|
+
+=
+
+四
+
+网并
+
+e
+
+=
+
+ea _)
+
+2
+
+on
+
+)5
+
+BS
+
+RST 46
+
+Ss
+
+06
+
+rife Hite
+
+wa
+
+20249920
+
+M2
+
+~
+
+| a
+
++
+
+*
+
+
+--- 高云半导体 | PDF 第 6 页 | gowin-06-image-1.png ---
+J280姿态控制竞赛套件
+
+——--—-—-—-—-— ~~
+
+—----—-—-—-— ~~
+
+GWU2X
+
+‘emai
+
+Type-C
+
+1
+
+LED*
+
+Mo              50MHz
+
+12V-1A
+
+Lh |
+
+27MHz
+
+FPGA
+
+DC
+
+Ww*2
+
+ADC
+
+| sw |
+
+FLASH
+
+接口
+
+GW2A-
+
+|一
+
+LV55PG484C8/I7
+
+DDR3
+
+电机接口
+
+UART
+
+ADC
+
+JTAG
+
+pec | [ve
+
+1/0
+
+UJ
+
+------
+
+电机驱动
+
+1C
+
+扩展接|
+
+口1
+
+扩展接
+
+口2
+
+
+--- 高云半导体 | PDF 第 6 页 | gowin-06-image-2.png ---
+BH
+
+角位移传感器
+
+25
+
+2°
+
+水平云台
+
+ia
+
+电机与编码器
+
+固定底座
+
+
+--- 高云半导体 | PDF 第 8 页 | gowin-08-image-1.png ---
+@600860
+
+'y SIPEED 四四 TANG NANO (20K
+
+Ea
+
+一-一
+
+:串。。。。阅
+
+一一一
+
+aa!
+
+=
+
+rt
+
+© 0000008
+
+@ © 000000808
+
+
+--- 高云半导体 | PDF 第 8 页 | gowin-08-image-2.png ---
+et
+
+ook
+
+ote
+
+ener
+
+Co
+
+Bae
+
+Se
+
+eS
+
+sie
+
+oe
+
+or
+
+ex
+
+AS
+
+Xwx
+
+<4
+
+ee
+
+sa"
+
+ax
+
+
+--- 高云半导体 | PDF 第 9 页 | gowin-09-image-1.png ---
+3s
+
+Sey
+
+e
+
+be
+
+的
+
+11.
+
+Gh
+
+eet
+
+ev
+
+—
+
+‘ee
+
+
+--- 高云半导体 | PDF 第 9 页 | gowin-09-image-2.png ---
+全
+
+vine!
+
+LE
+
+38855555
+
+eo:
+
+ao
+
+209
+
+‘ANG
+
+MEGA
+
+[sx ]
+
+22
+
+va
+
+<
+
+‘
+
+=
+
+D
+
+Trt
+
+6
+
+
+--- 高云半导体 | PDF 第 9 页 | gowin-09-image-3.png ---
+中国
+
+Ad
+
+or
+
+(oho
+
+om,
+
+
+--- 高云半导体 | PDF 第 10 页 | gowin-10-image-1.png ---
+aa
+
+和
+
+wey
+
+ee “MGIEFPGA
+
+ACG720-GWSAT138
+
+(4
+
+Ea
+
+583和
+
+ise
+
+172
+
+op)
+
+oes
+
+—
+
+ae
+
+(SE
+
+ahs
+
+i
+
+we
+
+一
+
+Be
+
+HOMTL
+
+ites
+
+La
+
+le
+
+ae
+
+"    Sree
+
+58
+
+ine
+
+=F
+
+上
+
+上
+
+7 D6 DS 0403020100
+
+由
+
+i
+
+sala}
+
+-—E
+
+a)
+
+一一| 一|
+
+aa
+
+as
+
+a2
+
+as
+
+$4 $3 S2 Si
+
+ye
+
+ttt
+
+BA AA
+
+sw
+
+ES]
+
+SESE
+
+
+--- 高云半导体 | PDF 第 10 页 | gowin-10-image-2.png ---
+ee ee ee
+
+ooo
+
+Vy
+
+Witt
+
+a
+
+vos
+
+——
+
+Sta
+
+ER
+
+co
+
+Oo
+
+ae
+
+9)
+
+“era
+
+CX750-G'
+
+Cr
+
+som
+
+=)
+
+eine
+
+a @)
+
+oo
+
+5一
+
+=f
+
+ant
+
+om
+
+os
+
+om
+
+AQ:
+
+地
+
+M
+
+“Ce
+
+i:
+
+ZBINIAAC
+
+te
+
+= @
+
+One
+
+ay
+
+ BR
+
+tf
+
+= fi
+
+a
+
+ne
+
+Cie
+
+tv
+
+ad
+
+=
+
+i
+
+ee
+
+Oo oon
+
+Hee
+
+vb
+
+em)
+
+waa
+
+1 i
+
+|
+
+ny
+
+aE
+
+全
+
+全
+
+se ©
+
+.@
+
+
+--- 高云半导体 | PDF 第 11 页 | gowin-11-image-1.png ---
+TPiz C6523
+
+ER
+
+e.
+
+ae acca
+
+FREE
+
+se Cai
+
+HORIBTRICS.
+
+TP2zTP13
+
+8
+
+‘a
+
+bars
+
+ET
+
+R204
+
+csr
+
+933
+
+rae
+
+3
+
+Ge
+
+soak
+
+人
+
+UE
+
+ET
+
+Fale
+
+mais
+
+x i
+
+ia
+
+BE
+
+ion
+
+Rice
+
+i
+
+ix}
+
+oe |
+
+ce74|
+
+Ee
+
+TP21一全
+
+um
+
+Ed
+
+cos aad 7
+
+$33
+
+ae
+
+uw
+
+gages
+
+Eepittow
+
+z        w=
+
+sem
+
+kath
+
+— P6018
+
+74
+
+AP
+
+goss
+
+131"
+
+140
+
+4
+
+内
+
+AIS
+
+cas
+
+aot
+
+euiz
+
+EB
+
+|o
+
+3 nico” 医可ck450
+
+和 jw Emo
+
+ck
+
+Gmoe ul Poe
+
+EC421
+
+Rar
+
+ER
+
+Ie.
+
+PBB 1,
+
+到
+
+ie
+
+Sy
+
+2g 3s
+
+5 wo 8
+
+2028-04-17
+
+wig
+
+e
+
+“@
+
+
+--- 高云半导体 | PDF 第 12 页 | gowin-12-image-1.png ---
+@eegeeeeeeeeeeeeee@e@e@ee@h
+
+BOO 0000 0000000800088
+
+e
+
+cz
+
+TH
+
+区
+
+0 Tals
+
+=
+
+fc
+
+jeter
+
+gee
+
+a
+
+=)
+
+WIDE
+
+8 ee  6e@
+
+= Bie
+
+2h
+
+BEE
+
+|
+
+JS
+
+CT
+
+SAN
+
+-
+
+xy Grae hse t
+
+dt
+
+了
+
+er区
+
+wper
+
+pet
+
+Teka
+
+cA
+
+a8
+
+aa
+
+i
+
+= —l
+
+tee F
+
+|
+
+一上-
+
+和
+
+ee
+
+tas
+
+|.
+
+ESw Sia
+
+ag in
+
+otis
+
+(Ceadest>
+
+一一
+
+aa
+
+mG:
+
+sy [ead
+
+Cas
+
+je
+
+= ew
+
+|
+
+Ve
+
+Eelee
+
+oR
+
+g
+
+mF
+
+i
+
+AS
+
+5d
+
+上
+
+“8D 61
+
+tg Sat
+
+国
+
+eh
+
+ssssssssssssssssssa|
+
+站
+
+‘©
+
+
+--- 高云半导体 | PDF 第 12 页 | gowin-12-image-2.png ---
+于
+
+es
+
+“4
+
+ar
+
+
+--- 高云半导体 | PDF 第 21 页 | gowin-21-image-1.png ---
+oF
+
+7
+
+ur.
+
+rt
+
+Le" os
+
+os
+
+Tr
+
+rule
+
+
+--- 易灵思 | PDF 第 3 页 | efinix-03-image-1.png ---
+MIPI
+
+YT85315C
+
+人
+
+Ti60F225B
+
+LVDS & MIPI
+
+8
+
+=8uAm0
+
+a
+
+we
+
+HDMI RX
+
+ze
+
+b
+
+we
+
+FT4232
+
+ime
+
+5-2
+
+a=
+
+HDMI TX
+
+Power &
+
+7
+
+ues
+
+STAG & UART
+
+CDONE
+
+a
+
+四
+
+mee
+
+we
+
+DDR3
+
+—
+
+WERER:
+
+of
+
+LED"8
+
+e
+
+CRESET N
+
+KYE"4
+
+
+--- 易灵思 | PDF 第 4 页 | efinix-04-image-1.png ---
+DvP CMOS相机
+
+DC-12V +—
+
+=]
+
+fi
+
+@ |
+
+i
+
+SHE
+
+串口(CH340) +—
+
+=
+
+1024*600
+
+EO
+
+[
+
+LVDS LCD屏幕
+
+STAG FRO
+
+图 Ae!
+
+ane
+
+DC3-40 + —
+
+1
+
+(3610)
+
+HDMI1.4输出
+
+8bit LED
+
+®
+
+MIPI RX+TX接口
+
+CSI+DSI 1.5Gbps
+
+
+--- 易灵思 | PDF 第 4 页 | efinix-04-image-2.png ---
+Ti60F255
+
+易灵思FPGA
+
+DVP CMOS相机
+
+DC-12V +—
+
+串口(CH340) +—
+
+他 下
+
+aT
+
+1024*600
+
+cos
+
+ae)
+
+LVDS LCD屏幕
+
+gl
+
+SRE
+
+STAG FRO
+
+DDR3 16bit 4Gbit
+
+ane
+
+K4B4G1646E
+
+DC3-40 «+ —
+
+ay
+
+1
+
+(3610)
+
+Ooms
+
+HDMI1.4输出
+
+8bit LED
+
+64Mbit SPI-FLASH
+
+com
+
+W25Q64JWSSIQ
+
+eat
+
+MIPI RX+TX接口
+
+CSI+DSI 1.5Gbps
+
+
+--- 易灵思 | PDF 第 21 页 | efinix-21-image-1.png ---
+Oeeea IO
+
+pee
+
+
+--- 复旦微 | PDF 第 3 页 | fudan-03-image-1.png ---
+2)
+
+-'@
+
+Lf]   RELEH
+
+mg v0
+
++ bal
+
+@
+
+re
+
+ii
+
+bal]
+
+—-
+
+FL
+
+doling
+
+5
+
+og
+
+388 $4 8.
+
+aa
+
+eels)
+
+nt $4 8
+
+=e
+
+a
+
+ce
+
+he
+
+ir
+
+ee 2
+
+reo. 国志
+
+A=
+
+En
+
+Bra
+
+o BD
+
+rn
+
+i
+
+fe
+
+a
+
+Li
+
+a
+
+a
+
+_—
+
+a i
+
+acd
+
+TeIe Te Te
+
+5 a
+
+起
+
+1
+
+a
+
+oso ss
+
+ae
+
+st :, E
+
+| hoe
+
+“a
+
+=a
+
+eye
+
+|
+
+“ee
+
+Bal”
+
+et
+
+bent J
+
+O14
+
+PEELE
+
+ope 1
+
+a, Me
+
+i
+
+Oe fhe
+
+人rr
+
+i
+
+a
+
+dy
+
+q
+
+-一一
+
+‘a
+
+vv $05
+
+=»)
+
+VV
+
+VV
+
+
+--- 复旦微 | PDF 第 7 页 | fudan-07-image-1.png ---
+a *   ae 2026 交流
+
+7900721
+
+OE ©
+
+peas
+
+©:
+
+aes
+
+本
+
