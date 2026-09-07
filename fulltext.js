@@ -9,6 +9,19 @@
   const original = new Map(sourceNodes.map(node => [node, node.textContent]));
   const searchable = new Map(pages.map(page => [page, [...page.querySelectorAll('.source-text,.verified-text')].map(node => node.textContent.toLocaleLowerCase()).join('\n')]));
   let lastQuery = '';
+  const documents = document.getElementById('reader-documents');
+  for (const option of select.options) {
+    const button = document.createElement('button');
+    button.className = 'document-button';
+    button.dataset.document = option.value;
+    const symbol = document.createElement('i');
+    symbol.dataset.lucide = option.value === 'all' ? 'library-big' : 'file-text';
+    const parts = option.textContent.split(' · ');
+    const badge = document.createElement('span');
+    badge.textContent = parts[1];
+    button.append(symbol, document.createTextNode(parts[0]), badge);
+    documents.append(button);
+  }
 
   function highlight(query) {
     if (query === lastQuery) return;
@@ -48,6 +61,10 @@
     document.querySelector('#reader-tools button').disabled = select.value === 'all';
     count.textContent = `${visible} / ${total} 页`;
     document.getElementById('no-results').hidden = visible !== 0;
+    documents.querySelectorAll('button').forEach(button => {
+      button.classList.toggle('active', button.dataset.document === select.value);
+      button.setAttribute('aria-pressed', String(button.dataset.document === select.value));
+    });
   }
 
   function openPage(page) {
@@ -60,6 +77,14 @@
   }
 
   select.addEventListener('change', () => { number.value = 1; filter(); });
+  documents.addEventListener('click', event => {
+    const button = event.target.closest('button[data-document]');
+    if (!button) return;
+    select.value = button.dataset.document;
+    number.value = 1;
+    filter();
+    window.scrollTo({top: 0, behavior: 'instant'});
+  });
   search.addEventListener('input', filter);
   document.getElementById('reader-tools').addEventListener('submit', event => {
     event.preventDefault();
@@ -77,5 +102,6 @@
   }
   window.addEventListener('hashchange', readHash);
   filter();
+  window.lucide?.createIcons({attrs:{'aria-hidden':'true','stroke-width':1.7}});
   readHash();
 })();

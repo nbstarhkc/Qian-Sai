@@ -44,6 +44,8 @@ AMD 内部的 RTL/HLS 分榜、初级/高级分组不重复计数；复旦微作
 index.html                 网站入口
 embedded-2026.html          赛题可视化
 app.js / styles.css         可视化交互与样式
+theme.css                  通用配色、字体与控件样式
+vendor/                    本地图标库及许可证
 topics.js                  7 家企业与 24 项选题数据
 fulltext.html              逐页全文与图片对照
 fulltext.js / fulltext.css  全文检索与样式
@@ -63,3 +65,5 @@ fulltext-audit.md           核对记录与原文疑义
 - [第一轮通知](sources/notice.pdf)
 
 正式资格、评分、截止日期及后续变更以组委会和企业最新通知为准。原始 PDF、板卡图片、商标及第三方资料的权利归各原发布方；本仓库的整理不改变其原有权利和使用条件。
+
+图标使用 [Lucide](https://lucide.dev/) 0.468.0，本地分发版本及许可证见 `vendor/`。

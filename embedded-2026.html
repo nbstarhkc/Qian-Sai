@@ -7,39 +7,42 @@
   <title>2026 FPGA 赛题图谱</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
+  <script src="vendor/lucide.min.js" defer></script>
   <script src="topics.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
-    <a class="wordmark" href="#topics">FPGA <span>2026</span></a>
-    <nav aria-label="主导航">
-      <button class="tab active" data-view="topics" aria-current="page">赛题详解</button>
-      <button class="tab" data-view="matrix">方向矩阵</button>
-      <button class="tab" data-view="compare">选题对比 <span id="compare-count">0</span></button>
-      <button class="tab" data-view="sources">官方资料</button>
+  <aside class="app-rail">
+    <a class="wordmark" href="#topics"><span class="brand-mark"><i data-lucide="cpu"></i></span><span class="brand-name">嵌赛 <small>QIAN SAI</small></span><span class="edition">2026</span></a>
+    <div class="rail-caption">工作空间</div>
+    <nav class="primary-nav" aria-label="主导航">
+      <button class="tab active" data-view="topics" aria-current="page"><i data-lucide="layout-list"></i><span>赛题详解</span></button>
+      <button class="tab" data-view="matrix"><i data-lucide="grid-2x2"></i><span>方向矩阵</span></button>
+      <button class="tab" data-view="compare"><i data-lucide="columns-3"></i><span>选题对比</span><span id="compare-count">0</span></button>
+      <button class="tab" data-view="sources"><i data-lucide="library-big"></i><span>官方资料</span></button>
     </nav>
-    <a class="official-link" href="http://www.fpgachina.cn/?page=download" target="_blank" rel="noopener">竞赛官网 ↗</a>
-  </header>
+    <div class="rail-vendors"><div class="rail-caption">企业指南 <span>07</span></div><div id="vendor-filters" class="vendor-filters" aria-label="企业筛选"></div></div>
+    <div class="rail-bottom"><a href="fulltext.html"><i data-lucide="book-open-text"></i>全文阅读<i data-lucide="arrow-up-right"></i></a><a href="https://github.com/nbstarhkc/Qian-Sai" target="_blank" rel="noopener"><i data-lucide="github"></i>GitHub 仓库<i data-lucide="arrow-up-right"></i></a><p><span class="status-dot"></span>资料核对于 2026.09.07</p></div>
+  </aside>
+  <div class="app-content">
+  <header class="topbar"><div class="breadcrumb"><span>竞赛资料</span><i data-lucide="chevron-right"></i><strong>FPGA 创新设计</strong></div><div class="topbar-links"><a href="fulltext.html"><i data-lucide="book-open"></i><span>逐页全文</span></a><a class="icon-button" data-tooltip="竞赛官网" aria-label="竞赛官网" href="http://www.fpgachina.cn/?page=download" target="_blank" rel="noopener"><i data-lucide="external-link"></i></a></div></header>
   <div class="page-head">
-    <div class="heading-line"><div><p class="eyebrow">全国大学生嵌入式芯片与系统设计竞赛 · FPGA 创新设计赛道</p><h1>2026 FPGA 赛题图谱</h1></div><span class="verified"><span></span>官方指南已核对 · 09.07</span></div>
-    <p class="scope">范围依据你提供的 FPGA 选题合集。共 24 项一级选题，含开放方向；AMD 内部分榜、分组不重复计数。此处不涵盖其他竞赛赛道。</p>
+    <div class="heading-line"><div><p class="eyebrow">全国大学生嵌入式芯片与系统设计竞赛</p><h1>2026 FPGA 赛题图谱</h1></div><div class="stats"><div><strong>07</strong><span>企业指南</span></div><div><strong>24</strong><span>一级选题</span></div><div><strong>139</strong><span>原文页数</span></div></div></div>
+    <p class="scope">FPGA 创新设计赛道 · 含指定任务与开放方向，AMD 内部分榜、分组不重复计数。</p>
     <div class="overview">
-      <div class="stats"><div><strong>07</strong><span>企业指南</span></div><div><strong>24</strong><span>一级选题</span></div><div><strong>139</strong><span>PDF 原文页</span></div></div>
       <div class="timeline" aria-label="第一轮通知赛程">
-        <div><span>报名截止</span><strong>09.22 <small>24:00</small></strong></div><div><span>作品提交</span><strong>11.04 <small>18:00</small></strong></div><div><span>南京决赛</span><strong>11.20–22</strong></div>
-        <a href="sources/notice.pdf#page=5" target="_blank" rel="noopener">第一轮通知 · 后续安排以官网为准 ↗</a>
+        <i class="calendar-icon" data-lucide="calendar-days"></i><div><span>报名截止</span><strong>09.22 <small>24:00</small></strong></div><i class="timeline-arrow" data-lucide="chevron-right"></i><div><span>作品提交</span><strong>11.04 <small>18:00</small></strong></div><i class="timeline-arrow" data-lucide="chevron-right"></i><div><span>南京决赛</span><strong>11.20–22</strong></div>
       </div>
+      <a class="timeline-source" href="sources/notice.pdf#page=5" target="_blank" rel="noopener">第一轮通知<i data-lucide="arrow-up-right"></i></a>
     </div>
   </div>
   <main>
     <section id="view-topics" class="view active" aria-label="赛题详解">
       <div class="filters">
-        <div id="vendor-filters" class="vendor-filters" aria-label="企业筛选"></div>
-        <div class="search-row"><label class="search-label"><span>检索</span><input id="search" type="search" placeholder="赛题、芯片、算法或接口" autocomplete="off"></label><label><span class="sr-only">技术方向</span><select id="category"><option value="all">全部技术方向</option></select></label><label><span class="sr-only">选题类型</span><select id="topic-type"><option value="all">全部选题类型</option><option>指定任务</option><option>自主选题</option></select></label><button id="reset" class="text-button">重置</button></div>
+        <div class="search-row"><label class="search-label"><i data-lucide="search"></i><span class="sr-only">检索</span><input id="search" type="search" placeholder="搜索赛题、芯片、算法或接口" autocomplete="off"></label><label class="mobile-vendor"><span class="sr-only">企业</span><select id="vendor-mobile"><option value="all">全部企业</option></select></label><label><span class="sr-only">技术方向</span><select id="category"><option value="all">全部技术方向</option></select></label><label><span class="sr-only">选题类型</span><select id="topic-type"><option value="all">全部选题类型</option><option>指定任务</option><option>自主选题</option></select></label><button id="reset" class="icon-button" aria-label="重置" data-tooltip="重置筛选"><i data-lucide="rotate-ccw"></i></button></div>
       </div>
       <div class="workspace">
-        <aside class="topic-sidebar"><div class="list-heading"><strong>选题目录</strong><span id="results-count" aria-live="polite"></span></div><div id="topic-list"></div></aside>
+        <aside class="topic-sidebar"><div class="list-heading"><strong><i data-lucide="list-filter"></i>选题目录</strong><span id="results-count" aria-live="polite"></span></div><div id="topic-list"></div></aside>
         <article id="topic-detail" class="topic-detail" aria-live="polite"></article>
       </div>
     </section>
@@ -49,7 +52,7 @@
       <div class="table-scroll"><table class="matrix"><thead id="matrix-head"></thead><tbody id="matrix-body"></tbody></table></div>
     </section>
     <section id="view-compare" class="view" aria-label="选题对比">
-      <div class="section-heading"><div><h2>选题对比</h2><p>按实际平台、基础任务和交付约束比较。</p></div><button id="clear-compare" class="secondary">清空对比</button></div>
+      <div class="section-heading"><div><h2>选题对比</h2><p>按实际平台、基础任务和交付约束比较。</p></div><button id="clear-compare" class="secondary"><i data-lucide="trash-2"></i>清空对比</button></div>
       <div id="compare-selectors" class="compare-selectors"></div><div id="comparison"></div>
     </section>
     <section id="view-sources" class="view" aria-label="官方资料">
@@ -61,6 +64,7 @@
     </section>
   </main>
   <footer><span>2026 FPGA 选题资料整理 · 非官方选题辅助资料</span><span>正式资格、评分及后续变更以组委会 / 企业通知为准</span></footer>
+  </div>
   <div id="toast" role="status"></div>
   <noscript><p class="noscript">此页面需要启用 JavaScript。可阅读 <a href="fulltext.html">逐页全文</a> 或 <a href="fpga-2026-guide.md">选题解读</a>。</p></noscript>
 </body>
